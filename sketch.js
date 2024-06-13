@@ -1,7 +1,9 @@
 var song;
+function preload(){
+  song = loadSound('Survive-Soundtrack.mp3');
+}
 function setup() {
   createCanvas(windowWidth, windowHeight);
-  song = loadSound('Survive-Soundtrack.mp3');
 }
 function draw() {
     song.play();
