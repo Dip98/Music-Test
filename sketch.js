@@ -10,4 +10,3 @@ function mousePressed() {
     song.play();
   }
 }
-rect(10, 100, 10, 10);
