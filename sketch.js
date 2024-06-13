@@ -1,11 +1,10 @@
 var song;
-function preload(){
+function setup(){
   song = loadSound('SurviveTest.mp3');
-}
-function setup() {
   createCanvas(windowWidth, windowHeight);
   song.loop();
 }
 function draw() {
-   rect(10, 10 ,10, 10)
+   rect(10, 10 ,10, 10);
+   song.play();
 }
