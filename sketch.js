@@ -11,3 +11,8 @@ function mousePressed() {
     }
     rect(10, 10, 10, 10)
 }
+function draw (){
+  if (!song.isPlaying()){
+    song.play();
+  }
+}
