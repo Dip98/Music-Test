@@ -1,8 +1,12 @@
 var song;
 function setup() {
   createCanvas(windowWidth, windowHeight);
-  song = loadSound('SurviveTest.mp3', ok);
+  song = loadSound('SurviveTest.mp3');
 }
-function ok(){
-  song.play();
+function mousePressed() {
+  if (song.isPlaying()) {
+    song.stop();
+  } else {
+    song.play();
+  }
 }
