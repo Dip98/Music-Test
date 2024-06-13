@@ -7,5 +7,5 @@ function setup() {
 }
 function draw() {
     song.play();
-    rect(10, 10 ,10, 10)
+    rect(10, 10, 10, 10)
 }
