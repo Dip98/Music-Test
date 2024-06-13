@@ -3,10 +3,7 @@ function setup() {
   createCanvas(windowWidth, windowHeight);
   song = loadSound('SurviveTest.mp3');
 }
-function mousePressed() {
-  if (song.isPlaying()) {
-    song.stop();
-  } else {
+function draw() {
     song.play();
-  }
+   rect(10, 10 ,10, 10)
 }
