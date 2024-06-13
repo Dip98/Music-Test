@@ -1,7 +1,7 @@
 var song;
 function setup() {
   createCanvas(windowWidth, windowHeight);
-  song = loadSound('Survive-Soundtrack.mp3')l
+  song = loadSound('Survive-Soundtrack.mp3');
 }
 function mousePressed() {
     if (song.isPlaying()) {
