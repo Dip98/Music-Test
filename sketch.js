@@ -1,9 +1,9 @@
 var song;
-function setup(){
-  song = loadSound('SurviveTest.mp3');
+function setup() {
   createCanvas(windowWidth, windowHeight);
+  song = loadSound('SurviveTest.mp3');
 }
 function draw() {
-   rect(10, 10 ,10, 10);
-   song.play();
+    song.play();
+    rect(10, 10 ,10, 10)
 }
