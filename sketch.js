@@ -3,7 +3,11 @@ function setup() {
   createCanvas(windowWidth, windowHeight);
   song = loadSound('Survive-Soundtrack.mp3')l
 }
-function draw() {
-    song.play();
+function mousePressed() {
+    if (song.isPlaying()) {
+      song.stop();
+    } else {
+      song.play();
+    }
     rect(10, 10, 10, 10)
 }
