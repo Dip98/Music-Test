@@ -1,2 +1,2 @@
 A music test using p5.js.
-It kinda works. It gets really weird at the end. 
+It works! Currently figuring out how to loop the music. If you have any ideas, then please tell me in the issues section.
